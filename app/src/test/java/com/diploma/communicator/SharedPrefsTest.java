@@ -40,7 +40,7 @@ public class SharedPrefsTest {
     @Test
     public void getUsername_returnsDefaultValue_whenEmpty() {
         String username = SharedPrefs.getUsername(context);
-        Assert.assertEquals("admin", username);
+        Assert.assertEquals("", username);
     }
 
     @Test

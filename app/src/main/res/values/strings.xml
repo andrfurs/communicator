@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Communicator</string>
+    <string name="value0">0</string>
+    <string name="Authorization">Авторизація</string>
+    <string name="Settings">Налаштування</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="base_url_http">BASE_URL (http://...)</string>
+    <string name="service_uuid">SERVICE_UUID</string>
+    <string name="char_uuid">CHAR_UUID</string>
+    <string name="cccd_uuid">CCCD_UUID</string>
+    <string name="smoke_level">Рівень задимленості:</string>
+    <string name="gas_level">Рівень загазованості:</string>
+    <string name="radiation_level">Рівень радіації:</string>
+    <string name="server_connection">З\'єднання з сервером:</string>
+    <string name="no_conn">немає</string>
+    <string name="username_f">Ім\'я користувача (Username):</string>
+    <string name="password_f">Пароль (Password):</string>
+    <string name="url_base_url">URL Сервера (BASE_URL):</string>
+    <string name="uuid_service_uuid">UUID Сервісу (SERVICE_UUID):</string>
+    <string name="uuid_char_uuid">UUID Характеристики (CHAR_UUID):</string>
+</resources>

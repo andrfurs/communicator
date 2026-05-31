@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/url_base_url"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editBaseUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="http://192.168.1.102:8080/"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/uuid_service_uuid"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editServiceUuid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="46a2774b-c1b9-41ad-a55f-9c21e91f4aeb"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/uuid_char_uuid"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editCharUuid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="8ec5ad34-2ce2-4cdb-a700-4d1de01870af"
+        android:textSize="14sp" />
+
+</LinearLayout>
